@@ -1,0 +1,7 @@
+{
+  "hostname": "127.0.0.1",
+  "content_port": 3076,
+  "relay_port": 3077,
+  "stun_addresses": ["0.0.0.0"],
+  "stun_ports": [3478, 3074]
+}

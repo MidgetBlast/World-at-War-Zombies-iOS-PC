@@ -1,0 +1,365 @@
+touchHLE c771ec29b — https://touchhle.org/
+
+touchHLE: Base path for touchHLE files: .
+App bundle info:
+- Display name: COD Zombies
+- Version: 1.5.0
+- Identifier: com.activision.callofduty
+- Internal name (canonical): kiwi.app
+- Minimum OS version: 3.0
+- Required device capabilities: (not specified)
+- Device family: iPhone
+
+Using options from touchHLE_default_options.txt for this app: --x-tilt-offset=-10 --dpad-to-touch=30,215,80,80 --stick-to-touch=30,215,80,80 --button-to-touch=A,387,210 --button-to-touch=B,455,185 --button-to-touch=X,455,25 --button-to-touch=Y,440,95 --button-to-touch=LeftShoulder,240,310 --button-to-touch=Start,20,25
+Using options from .\touchHLE_options.txt for this app: --fov=native --scale-hack=1 --mouse-look-sensitivity=8.0 --gamepad-look-sensitivity=2.0 --dw-mode=host --dw-server=127.0.0.1 --net-relay --relay-port=3077 --relay-room=default
+
+touchHLE::environment: App needs non-portrait user interface orientation "UIInterfaceOrientationLandscapeRight", applying device orientation LandscapeLeft.
+touchHLE::environment: iPhone device family is chosen.
+touchHLE::gles: Creating an OpenGL ES 1.1 context:
+touchHLE::gles: Trying: Native OpenGL ES 1.1
+touchHLE::gles: => Failed: Could not initialize OpenGL / GLES library.
+touchHLE::gles: Trying: OpenGL ES 1.1 via touchHLE GLES1-on-GL2 layer
+touchHLE::gles: => Success!
+touchHLE::window: Driver info: OpenGL 4.6.0 NVIDIA 591.86 / NVIDIA Corporation / NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2
+touchHLE::mach_o: Loading armv6 slice for "kiwi"
+touchHLE::mach_o: Warning: Unexpected segment name: __S3E_DATA
+touchHLE::environment: Warning: app binary depends on unimplemented or missing dylib "/System/Library/Frameworks/CoreAudio.framework/CoreAudio"
+touchHLE::environment: Warning: app binary depends on unimplemented or missing dylib "/System/Library/Frameworks/AddressBook.framework/AddressBook"
+touchHLE::mach_o: Loading armv7 slice for "libz.1.dylib"
+touchHLE::mach_o: Loading armv7 slice for "libstdc++.6.dylib"
+touchHLE::mach_o: Loading armv7 slice for "libgcc_s.1.dylib"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_kCAGravityTopLeft" at 0xa00b08 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyArtist" at 0xa00b2c in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyIsCompilation" at 0xa00b30 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyPlaybackDuration" at 0xa00b34 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyMediaType" at 0xa00b38 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyGenre" at 0xa00b3c in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyAlbumTrackNumber" at 0xa00b40 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyAlbumArtist" at 0xa00b44 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyAlbumTrackCount" at 0xa00b48 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyTitle" at 0xa00b4c in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyLyrics" at 0xa00b50 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyComposer" at 0xa00b54 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyAlbumTitle" at 0xa00b58 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyPersistentID" at 0xa00b5c in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyDiscNumber" at 0xa00b60 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMediaItemPropertyDiscCount" at 0xa00b64 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_UIPasteboardTypeListString" at 0xa00b68 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_ADBannerContentSizeIdentifier320x50" at 0xa00bb8 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_ADBannerContentSizeIdentifier480x32" at 0xa00bc0 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_kCLErrorDomain" at 0xa00bcc in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_kCLLocationAccuracyBest" at 0xa00bd0 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_kCLDistanceFilterNone" at 0xa00bd4 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMoviePlayerWillEnterFullscreenNotification" at 0xa00bec in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMoviePlayerDidExitFullscreenNotification" at 0xa00bf0 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMoviePlayerPlaybackStateDidChangeNotification" at 0xa00bf4 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMoviePlayerNowPlayingMovieDidChangeNotification" at 0xa00bfc in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_MPMoviePlayerLoadStateDidChangeNotification" at 0xa00c00 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_kCFTypeArrayCallBacks" at 0xa00c08 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_NSHTTPCookieName" at 0xa00c0c in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_NSHTTPCookiePath" at 0xa00c10 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_NSHTTPCookieValue" at 0xa00c14 in "kiwi"
+touchHLE::dyld: Warning: unhandled non-lazy symbol "_NSHTTPCookieDomain" at 0xa00c18 in "kiwi"
+touchHLE::dyld: Warning: unhandled external relocation "dyld_stub_binder" in "libstdc++.6.dylib" at 0x374d5024
+touchHLE::dyld: Warning: unhandled external relocation "___mb_cur_max" in "libstdc++.6.dylib" at 0x374d54ac
+touchHLE::dyld: Warning: unhandled non-lazy symbol "___mb_cur_max" at 0x374d54ac in "libstdc++.6.dylib"
+touchHLE::dyld: Warning: unhandled external relocation "dyld_stub_binder" in "libgcc_s.1.dylib" at 0x30009000
+touchHLE::objc::classes: Note: substituting fake class for FBRequest to improve compatibility
+touchHLE::objc::classes: Note: substituting fake class for FBSession to improve compatibility
+touchHLE::objc::classes: Note: substituting fake class for FBXMLHandler to improve compatibility
+touchHLE::objc::classes: Note: substituting fake class for FBDialog to improve compatibility
+touchHLE::objc::classes: Note: substituting fake class for FBLoginDialog to improve compatibility
+touchHLE::objc::classes: Note: substituting fake class for FBPermissionDialog to improve compatibility
+touchHLE::objc::classes: Note: substituting fake class for FBStreamDialog to improve compatibility
+CPU emulation begins now.
+touchHLE::environment: Found sorted order ["libgcc_s.1.dylib", "libz.1.dylib", "libstdc++.6.dylib", "kiwi"]
+touchHLE::libc::cxxabi: TODO: __cxa_atexit(GuestFunction(0x374cea69), (null), 0x3748a000) (unimplemented)
+touchHLE::libc::cxxabi: TODO: __cxa_atexit(GuestFunction(0x374cea89), (null), 0x3748a000) (unimplemented)
+touchHLE::libc::cxxabi: TODO: __cxa_atexit(GuestFunction(0x5a058), (null), 0x1000) (unimplemented)
+touchHLE::libc::cxxabi: TODO: __cxa_atexit(GuestFunction(0x59fec), (null), 0x1000) (unimplemented)
+kiwi[0] Airplay v4.3.0beta [231940u]: main thread r9 = 0x374da490
+
+kiwi[0] 
+touchHLE::frameworks::uikit::ui_nib: TODO: UIProxyObject replacement for IBFirstResponder, instance 0x2cd9d0 left unreplaced
+touchHLE::window: This app uses the accelerometer.
+touchHLE::window: Connect a controller to get accelerometer simulation.
+touchHLE::window: You can also hold right click and move the cursor to simulate the accelerometer.
+touchHLE::window: New controller connected: PS5 Controller. Left stick = move, right stick = aim, R1 = shoot, L1 = aim down sights, R2 = grenade, L2 = knife, Square = reload, Circle = interact, Options = pause. In the menus the d-pad moves the selection, Cross presses it and Circle goes back.
+kiwi[1] loader thread r9 = 0x00000000
+
+kiwi[1] 
+touchHLE::frameworks::cf_network::cf_net_services: Connected to relay 127.0.0.1:3077, room default, player 1. Waiting for a Co-Op Wi-Fi match.
+touchHLE::libc::time: TODO: tzset()
+touchHLE::frameworks::core_animation::ca_layer: TODO: [(CALayer*) 0x2cdfa0 setMinificationFilter:"kCAFilterNearest"]
+touchHLE::frameworks::core_animation::ca_layer: TODO: [(CALayer*) 0x2cdfa0 setMagnificationFilter:"kCAFilterNearest"]
+touchHLE::libc::signal: TODO: signal(13, 0x1)
+touchHLE::frameworks::audio_toolbox::audio_session: TODO: AudioSessionInitialize((null), (null), GuestFunction(0x4d050), (null)) -> 0
+touchHLE::frameworks::audio_toolbox::audio_session: TODO: AudioSessionAddPropertyListener(1919902568, GuestFunction(0x4bf0c), (null)) -> 0
+touchHLE::frameworks::audio_toolbox::audio_session: TODO: AudioSessionAddPropertyListener(1634296182, GuestFunction(0x4cf58), (null)) -> 0
+touchHLE::gles: Creating an OpenGL ES 1.1 context:
+touchHLE::gles: Trying: Native OpenGL ES 1.1
+touchHLE::gles: => Failed: Could not initialize OpenGL / GLES library.
+touchHLE::gles: Trying: OpenGL ES 1.1 via touchHLE GLES1-on-GL2 layer
+touchHLE::gles: => Success!
+touchHLE::frameworks::opengles::eagl: Driver info: OpenGL 4.6.0 NVIDIA 591.86 / NVIDIA Corporation / NVIDIA GeForce RTX 3080 Ti/PCIe/SSE2
+touchHLE::libc::posix_io::stat: Warning: stat() call, this function is mostly unimplemented [this log will only be shown once]
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: read(3, 0xa0925c, 0x200) read only 0xcc bytes
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a38, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c3e8c, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c3e8c, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c3e8c, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c3e8c, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c3e8c, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::frameworks::opengles::gles_guest: Hiding the on-screen controls of Call of Duty: Zombies.
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4744, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c42e8, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c3e8c, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4a54, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: TODO: fcntl(4, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(4, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: The app is waiting for connections on UDP port 9784. To be joined from another network, that is the port a router has to forward here.
+touchHLE::libc::sys::socket: The app is sending datagrams to 239.255.255.250:1900.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::netdb: Resolving "codzombies-iphone-live.lsg.mmp3.demonware.net" to 127.0.0.1 (asked for on the command line).
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::netdb: Resolving "codzombies-iphone-live.auth.mmp3.demonware.net" to 127.0.0.3 (asked for on the command line).
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(5, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(5, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: WAW Demonware auth redirect: 127.0.0.3:3074 -> 127.0.0.1:3075
+touchHLE::libc::sys::socket: Connected socket 5 to 127.0.0.1:3075.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(5, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(5, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: WAW Demonware auth redirect: 127.0.0.3:3074 -> 127.0.0.1:3075
+touchHLE::libc::sys::socket: Connected socket 5 to 127.0.0.1:3075.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(5, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(5, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: WAW Demonware auth redirect: 127.0.0.3:3074 -> 127.0.0.1:3075
+touchHLE::libc::sys::socket: Connected socket 5 to 127.0.0.1:3075.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(5, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(5, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: WAW Demonware auth redirect: 127.0.0.3:3074 -> 127.0.0.1:3075
+touchHLE::libc::sys::socket: Connected socket 5 to 127.0.0.1:3075.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(5, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(5, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: WAW Demonware auth redirect: 127.0.0.3:3074 -> 127.0.0.1:3075
+touchHLE::libc::sys::socket: Connected socket 5 to 127.0.0.1:3075.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(5, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(5, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: WAW Demonware auth redirect: 127.0.0.3:3074 -> 127.0.0.1:3075
+touchHLE::libc::sys::socket: Connected socket 5 to 127.0.0.1:3075.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(5, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(5, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: Connected socket 5 to 127.0.0.1:3074.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: TODO: fcntl(6, F_SETFD, 1) called. CLOEXEC currently not supported.
+touchHLE::libc::sys::socket: TODO: setsockopt(6, 0x6, 0x1, ...): ignored
+touchHLE::libc::sys::socket: Connected socket 6 to 127.0.0.1:3074.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: Warning: read(7, 0xa0925c, 0x200) read only 0x3e bytes
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+User requested quit, exiting.
+touchHLE::frameworks::foundation::ns_locale: The app requested your preferred languages. ["en"] will be reported based on your system language preferences.
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::libc::posix_io: Warning: open(0x6c4994, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4994, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4994, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4994, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: read(7, 0xa0925c, 0x200) read only 0x3e bytes
+touchHLE::libc::posix_io: Warning: open(0x6c4694, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4694, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c47b0, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c47b0, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c4694, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c47b0, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c47b0, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c47b0, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::posix_io: Warning: open(0x6c47b0, 0x0) failed with: DoesNotExist, returning -1
+touchHLE::libc::sys::socket: TODO: recvfrom(4, ..., flags 0x10): ignoring 0x10
+touchHLE::frameworks::uikit::ui_application: TODO: ignoring setApplicationIconBadgeNumber:0
+touchHLE::frameworks::opengles::gles_guest: Warning: No EAGLContext for thread 0! Ignoring OpenGL ES call, returning default value.
+touchHLE::frameworks::opengles::gles_guest: Warning: No EAGLContext for thread 0! Ignoring OpenGL ES call, returning default value.
+touchHLE::frameworks::opengles::gles_guest: Warning: No EAGLContext for thread 0! Ignoring OpenGL ES call, returning default value.
+touchHLE::fs: Saved data copied to ".\\touchHLE_saves\\default\\history\\2026-10-10_07-05-48" (5 files).

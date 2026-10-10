@@ -1,0 +1,5 @@
+Demonware endpoint: 127.0.0.1 (local server host: true).
+Settings: FOV None, scale 1, mouse 8, gamepad 2, relay 127.0.0.1:3077, room default.
+Started F:\games\WAWZombies\dw-server.exe for the game's online menus.
+BitDemon lobby and authentication services are ready.
+Launching game\COD_Zombies_1.5.0.ipa.

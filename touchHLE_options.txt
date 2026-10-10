@@ -1,0 +1,95 @@
+# WAWZombies settings. Restart the game after changing anything here.
+# Options for the game start on the "com.activision.callofduty:" line, and
+# every line after it that starts with -- adds another one. A # starts a
+# comment. Options given to WAWZombies.exe on its command line win.
+
+com.activision.callofduty: --fov=native --scale-hack=1 --mouse-look-sensitivity=8.0 --gamepad-look-sensitivity=2.0
+
+# CAMERA: --fov=native keeps the game's own view, about 58 degrees across.
+# A number from 50 to 120 sets how many degrees across you see in play, e.g.
+# --fov=75 for a wider view. Aiming down the sights still zooms, and the HUD
+# and menus are unchanged. At wide settings things appear at the edges of the
+# screen as you turn, because the game only draws what its own view would show.
+# RENDER RESOLUTION: --scale-hack=1 draws the game at its own 480x320. 2 or 3
+# draws at two or three times that: sharper, but harder on the graphics card.
+# MOUSE: --mouse-look-sensitivity=8.0 (any positive number; higher is faster).
+# GAMEPAD: --gamepad-look-sensitivity=2.0 (0.1 to 4.0; higher is faster). It
+# sets the right stick's turn speed, up to the game's fastest turn.
+# F12 switches between the window and fullscreen at any time.
+
+# SERVER: see README.md for hosting, joining and running a server.
+# --dw-mode=host starts this PC's own dw-server.exe when the game starts.
+# --dw-mode=join uses the server at --dw-server instead (an IP address or a
+# host name, without a port), and never starts one here.
+# Everyone who plays together must use the same server, relay port and room.
+--dw-mode=host
+--dw-server=127.0.0.1
+--net-relay
+--relay-port=3077
+--relay-room=default
+
+# CONTROLS. Each line binds one action to one or more inputs, separated by
+# commas, and replaces what that action had on that kind of input; "none"
+# unbinds it. An input given to a new action stops doing its old one.
+# Delete a line, or the whole list, to keep the built-in default.
+#
+# Actions in play: forward back left right fire ads reload switch-weapon
+#   grenade grenade-type knife interact pause cursor
+# Actions in the menus: menu-up menu-down menu-left menu-right menu-select
+#   menu-back
+# "pause" opens the pause screen and always brings the cursor out (Escape
+# never takes it away). "cursor" brings the cursor out without pausing, and
+# takes it away again; moving or pushing a stick also goes back into play.
+#
+# Keys use their names on the keyboard: W, Space, LShift, LCtrl, LAlt, F1,
+# Up, Return, Backspace, Keypad-Enter, Page-Up, 1, ... (a hyphen for a space).
+--cod-key-bind=forward:W
+--cod-key-bind=back:S
+--cod-key-bind=left:A
+--cod-key-bind=right:D
+--cod-key-bind=fire:none
+--cod-key-bind=ads:none
+--cod-key-bind=reload:R
+--cod-key-bind=switch-weapon:Q
+--cod-key-bind=grenade:G
+--cod-key-bind=grenade-type:T
+--cod-key-bind=knife:V
+--cod-key-bind=interact:F
+--cod-key-bind=pause:Escape
+--cod-key-bind=cursor:Tab
+--cod-key-bind=menu-up:Up
+--cod-key-bind=menu-down:Down
+--cod-key-bind=menu-left:Left
+--cod-key-bind=menu-right:Right
+--cod-key-bind=menu-select:Return,Keypad-Enter
+--cod-key-bind=menu-back:none
+#
+# Mouse: left, right, middle, mouse4, mouse5 (the side buttons), wheel-up,
+# wheel-down. Moving the mouse always aims; the left button clicks the menus.
+--cod-mouse-bind=fire:left
+--cod-mouse-bind=ads:right
+--cod-mouse-bind=cursor:middle
+--cod-mouse-bind=switch-weapon:wheel-up,wheel-down
+#
+# Controller: cross circle square triangle (or a b x y), l1 r1 l2 r2 l3 r3,
+# options share touchpad, dpad-up dpad-down dpad-left dpad-right, ps.
+# The left stick moves and the right stick aims; --cod-pad-sticks=swap swaps
+# them. --aim-stick-deadzone stops a worn right stick from drifting the aim.
+--cod-pad-bind=fire:r1
+--cod-pad-bind=ads:l1
+--cod-pad-bind=reload:square
+--cod-pad-bind=switch-weapon:triangle
+--cod-pad-bind=grenade:r2
+--cod-pad-bind=grenade-type:dpad-up
+--cod-pad-bind=knife:l2,r3
+--cod-pad-bind=interact:circle
+--cod-pad-bind=pause:options
+--cod-pad-bind=cursor:share,touchpad
+--cod-pad-bind=menu-up:dpad-up
+--cod-pad-bind=menu-down:dpad-down
+--cod-pad-bind=menu-left:dpad-left
+--cod-pad-bind=menu-right:dpad-right
+--cod-pad-bind=menu-select:cross
+--cod-pad-bind=menu-back:circle
+--cod-pad-sticks=normal
+--aim-stick-deadzone=0.10
